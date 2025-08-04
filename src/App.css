@@ -1,0 +1,126 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.report-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 240px;
+  background: linear-gradient(to bottom, #4361ee, #3a0ca3);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.user-info {
+  margin-bottom: 30px;
+}
+
+.user-icon {
+  font-size: 40px;
+}
+
+.user-role {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.user-role span {
+  font-weight: normal;
+  font-size: 14px;
+  color: #cfd8dc;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item.active {
+  background-color: #4cc9f0;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 30px 40px;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-buttons button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #dbeafe;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.report-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select, .search-btn {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  background-color: #3a86ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.report-table th,
+.report-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.report-table th {
+  background-color: #f0f0f0;
+}

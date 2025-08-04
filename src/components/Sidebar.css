@@ -1,0 +1,31 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background-color: #334155;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
